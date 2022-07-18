@@ -3,8 +3,8 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Header from './Components/Header/header';
 import { Provider } from 'react-redux';
+import Header from './Components/Header/header';
 import store from './configureStore';
 
 function App() {
