@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import Header from './Components/Header/header';
 import store from './configureStore';
 import AllMission from './Components/Missions/AllMission';
+import Rockets from './Components/Rockets/Rockets';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <div className="content">
             <Routes>
               <Route path="/" element={<AllMission />} />
-              <Route path="/Rockets" element={<>Rockets</>} />
+              <Route path="/Rockets" element={<Rockets />} />
               <Route path="/Profile" element={<>Profile</>} />
             </Routes>
           </div>
