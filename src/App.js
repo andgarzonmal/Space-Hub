@@ -6,6 +6,7 @@ import {
 import { Provider } from 'react-redux';
 import Header from './Components/Header/header';
 import store from './configureStore';
+import AllMission from './Components/Missions/AllMission';
 
 function App() {
   return (
@@ -13,11 +14,10 @@ function App() {
       <BrowserRouter>
         <div>
           <Header />
-
           <hr />
           <div className="content">
             <Routes>
-              <Route path="/" element={<>Missions</>} />
+              <Route path="/" element={<AllMission />} />
               <Route path="/Rockets" element={<>Rockets</>} />
               <Route path="/Profile" element={<>Profile</>} />
             </Routes>
