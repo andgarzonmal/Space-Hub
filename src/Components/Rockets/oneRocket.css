@@ -1,0 +1,36 @@
+.rocket {
+  margin: 4px;
+  display: flex;
+  padding: 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+.rocket img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.rocket-description {
+  font-size: 20px;
+}
+
+.rocket-name {
+  margin: 0;
+}
+
+.button {
+  background-color: #3998ff;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  align-self: start;
+  margin-top: 10px;
+}
