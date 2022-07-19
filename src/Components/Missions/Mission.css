@@ -9,17 +9,17 @@ li {
 
 .table-head {
   display: grid;
-  grid-template-columns: 1fr 4fr 0.75fr 0.85fr ;
+  grid-template-columns: 1fr 4fr 0.75fr 0.85fr;
 }
 
 .mission {
   display: grid;
-  grid-template-columns: 1fr 4fr 0.75fr 0.85fr ;
+  grid-template-columns: 1fr 4fr 0.75fr 0.85fr;
   grid-gap: 1px;
 }
 
 .table-head li {
-  border: 1px solid black ;
+  border: 1px solid black;
   text-align: center;
   padding: 15px;
   background-color: #f8f8f8;
