@@ -9,7 +9,9 @@ function AllMission() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(displayMissions());
+    if (missions.length === 0) {
+      dispatch(displayMissions());
+    }
   }, []);
 
   return (
@@ -24,6 +26,8 @@ function AllMission() {
           key={mission.mission_id}
           name={mission.mission_name}
           description={mission.description}
+          id={mission.mission_id}
+          reserved={mission.reserved}
         />
       ))}
     </div>

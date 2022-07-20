@@ -8,6 +8,7 @@ import Header from './Components/Header/header';
 import store from './configureStore';
 import AllMission from './Components/Missions/AllMission';
 import Rockets from './Components/Rockets/Rockets';
+import ProfileContainer from './Components/Profile/Profile';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Routes>
               <Route path="/" element={<AllMission />} />
               <Route path="/Rockets" element={<Rockets />} />
-              <Route path="/Profile" element={<>Profile</>} />
+              <Route path="/Profile" element={<ProfileContainer />} />
             </Routes>
           </div>
         </div>
