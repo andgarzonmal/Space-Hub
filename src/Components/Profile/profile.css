@@ -1,0 +1,28 @@
+.profile-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.booked-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+}
+
+.missions,.rockets {
+  width: 48%;
+  min-height: 400px;
+  border: 1px solid black;
+}
+
+.mission-container {
+  margin: 24px;
+}
