@@ -7,7 +7,6 @@ const getData = async () => {
     mission_name: mission.mission_name,
     mission_id: mission.mission_id,
     description: mission.description,
-    reserved: false,
   }));
   return allMission;
 };
