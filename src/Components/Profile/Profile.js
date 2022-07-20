@@ -2,10 +2,13 @@ import React from 'react';
 import './profile.css';
 import { useSelector } from 'react-redux/es/hooks/useSelector';
 import ProfileMissions from './ProfileMissions';
+import ProfileRockets from './ProfileRockets';
 
 function ProfileContainer() {
   const missions = useSelector((state) => state.missions);
   const joinedMissions = missions.filter((mission) => mission.reserved === true);
+  const rockets = useSelector((state) => state.rockets);
+  const joinedRockets = rockets.filter((rocket) => rocket.rocketReserved === true);
   return (
     <div className="profile-container">
       <h1>My profile</h1>
@@ -21,6 +24,12 @@ function ProfileContainer() {
         </div>
         <div className="rockets">
           <h3 className="title">ALL MY ROCKETS</h3>
+          {joinedRockets.map((rocket) => (
+            <ProfileRockets
+              key={rocket.rocketId}
+              name={rocket.rocketName}
+            />
+          ))}
         </div>
       </div>
     </div>
