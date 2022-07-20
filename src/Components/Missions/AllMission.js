@@ -24,6 +24,8 @@ function AllMission() {
           key={mission.mission_id}
           name={mission.mission_name}
           description={mission.description}
+          id={mission.mission_id}
+          reserved={mission.reserved}
         />
       ))}
     </div>
