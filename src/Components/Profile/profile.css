@@ -17,7 +17,8 @@
   text-align: center;
 }
 
-.missions,.rockets {
+.missions,
+.rockets {
   width: 48%;
   min-height: 400px;
   border: 1px solid black;
