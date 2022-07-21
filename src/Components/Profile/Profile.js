@@ -1,6 +1,6 @@
 import React from 'react';
 import './profile.css';
-import { useSelector } from 'react-redux/es/hooks/useSelector';
+import { useSelector } from 'react-redux';
 import ProfileMissions from './ProfileMissions';
 import ProfileRockets from './ProfileRockets';
 
