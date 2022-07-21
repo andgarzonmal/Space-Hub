@@ -32,7 +32,7 @@ function Mission({
         <span className={reserved ? 'leave' : 'join'}>{reserved ? 'Active Member' : 'Not a Member' }</span>
       </div>
       <div className="center-items grid-item">
-        <button type="button" onClick={(id) => (reserved ? handleUnJoin(id) : handleJoin(id))}>join mission</button>
+        <button type="button" onClick={(id) => (reserved ? handleUnJoin(id) : handleJoin(id))}>{reserved ? 'Leave Mission' : 'Join Mission' }</button>
       </div>
     </div>
   );
