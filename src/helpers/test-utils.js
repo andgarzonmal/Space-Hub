@@ -5,13 +5,13 @@ import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
 // As a basic setup, import your same slice reducers
 import rocketReducer from '../Redux/Rockets/RocketsSlice'
-
+import { missionReducer } from '../Redux/Mission/Mission'
 function renderWithProviders(
   ui,
   {
     preloadedState = {},
     // Automatically create a store instance if no store was passed in
-    store = configureStore({ reducer: { rockets: rocketReducer }, preloadedState }),
+    store = configureStore({ reducer: { rockets: rocketReducer, missions: missionReducer }, preloadedState }),
     ...renderOptions
   } = {}
 ) {
