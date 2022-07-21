@@ -79,8 +79,8 @@ To have this app on your pc, you need to:
     - The build is minified and the filenames include the hashes.
     - Your app is ready to be deployed!
 
-## Automated Test
- > to be added
+## netlify live version
+ > https://62d9bc18ce037a18b651fb18--wonderful-vacherin-bfde52.netlify.app/Profile
 
 
 
