@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux/es/exports';
+import { useDispatch, useSelector } from 'react-redux';
 import React, { useEffect } from 'react';
 import Mission from './Mission';
 import './Mission.css';

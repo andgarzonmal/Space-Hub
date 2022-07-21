@@ -1,7 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import './Mission.css';
-import { useDispatch } from 'react-redux/es/exports';
+import { useDispatch } from 'react-redux';
 import { joinMission, unJoinMission } from '../../Redux/Mission/Mission';
 
 function Mission({

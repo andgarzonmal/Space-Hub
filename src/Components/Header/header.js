@@ -8,7 +8,7 @@ function Header() {
     <nav>
       <div className="logo">
         <img className="logo-header" src={logo} alt="logo" />
-        <h4>Title</h4>
+        <h4>SpaceX APP</h4>
       </div>
       <div className="links">
         <NavLink className="link" to="/"> Missions</NavLink>

@@ -11,14 +11,14 @@ function RocketsCards({ rocket }) {
     rocketId, rocketName, rocketDesc, rocketImg, rocketReserved,
   } = rocket;
 
-  const reserveHandler = (e) => {
-    const data = e.target.id;
-    dispatch(reserveRocket(data));
+  const reserveHandler = () => {
+    // const data = e.target.id;
+    dispatch(reserveRocket(rocketId));
   };
 
-  const cancelHandler = (e) => {
-    const data = e.target.id;
-    dispatch(cancelRocket(data));
+  const cancelHandler = () => {
+    // const data = e.target.id;
+    dispatch(cancelRocket(rocketId));
   };
 
   return (
